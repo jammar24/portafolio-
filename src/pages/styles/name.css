@@ -1,0 +1,29 @@
+.container__name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -370px;
+    margin-right: 34%;
+   
+
+  }
+  #im {
+    z-index: 8;
+  }
+ 
+  #brazo {
+    animation: brazo 3s infinite;
+    transform-box: fill-box;
+    transform-origin: 75% 21%;
+  
+  }
+  
+  @keyframes brazo {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(80deg);
+    }
+  }
+  

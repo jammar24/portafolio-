@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,600,700,800');
+@import url('https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css');
+
+#card__name {
+  color: #fff;
+ 
+}
+
+.card__container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 250px;
+}
+
+figure.card {
+  font-family: 'Raleway', Arial, sans-serif;
+  color: #fff;
+  position: relative;
+  overflow: hidden;
+  margin: 10px;
+  min-width: 220px;
+  max-width: 310px;
+  width: 100%;
+  background-color: #ffffff;
+  color: #000000;
+  text-align: left;
+  font-size: 16px;
+  border-radius: 2em;
+}
+
+figure.card * {
+  box-sizing: border-box;
+  transition: all 0.2s ease;
+}
+
+figure.card img {
+  min-width: 100%;
+  vertical-align: top;
+  transform-origin: 50% 100%;
+  transition: all 0.4s ease;
+}
+
+figure.card figcaption {
+  padding: 25px;
+  position: relative;
+}
+
+figure.card .date,
+figure.card i {
+  background-color: #1abc9c;
+  top: 25px;
+  color: #fff;
+  left: 25px;
+  min-height: 60px;
+  min-width: 60px;
+  position: absolute;
+  text-align: center;
+  border-radius: 1em;
+}
+
+figure.card .date {
+  transition-delay: 0.2s;
+  font-size: 22px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+figure.card .date span {
+  display: block;
+  line-height: 30px;
+}
+
+figure.card .date .month {
+  font-size: 16px;
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 0 0 1em 1em;
+}
+
+figure.card i {
+  line-height: 60px;
+  font-size: 30px;
+  transform: rotateY(-90deg);
+  transition-delay: 0s;
+}
+
+figure.card h3,
+figure.card p {
+  margin: 0;
+  padding: 0;
+}
+
+figure.snip1208 h3 {
+  margin-bottom: 10px;
+  display: inline-block;
+  font-weight: 600;
+  color: #333333;
+  text-transform: uppercase;
+}
+
+figure.card p {
+  font-size: 0.8em;
+  margin-bottom: 20px;
+  line-height: 1.6em;
+}
+
+figure.card button {
+  border: none;
+  padding: 10px 20px;
+  background-color: #1abc9c;
+  font-weight: 800;
+  color: #ffffff;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  font-size: 0.7em;
+  border-radius: 5em;
+}
+
+figure.card a {
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  position: absolute;
+  z-index: 1;
+}
+
+figure.card:hover img,
+figure.card.hover img {
+  transform: scale(1.1);
+}
+
+figure.card:hover .date,
+figure.card.hover .date {
+  transform: rotateY(90deg);
+  transition-delay: 0s;
+}
+
+figure.card:hover i,
+figure.card.hover i {
+  transform: rotateY(0);
+  transition-delay: 0.2s;
+}
+
+figure.card:hover button,
+figure.card.hover button {
+  background-color: #117964;
+}
+
+/* Media queries for responsiveness */
+
+@media (max-width: 768px) {
+  .card-container {
+    justify-content: flex-start;
+    align-items: center;
+  }
+}
+
+@media (max-width: 480px) {
+  figure.card {
+    min-width: 100%;
+    max-width: 100%;
+  }
+}
