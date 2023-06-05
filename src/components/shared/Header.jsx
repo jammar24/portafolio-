@@ -1,8 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import  './styles/header.css'
-import Body from '../../pages/Body'
-import HeadLogo from './HeadLogo'
+
 
 const Header = () => {
   return (
@@ -18,7 +17,7 @@ const Header = () => {
                     <Link  to='/'> Aboutme</Link>
                 </li>
                 <li>
-                    <Link  to='/proyects'> Proyects</Link>
+                    <Link  to='/projects'> Proyects</Link>
                 </li>
                  {/*<li>
                     <Link to= '/'>Project Gallery</Link>
@@ -37,8 +36,7 @@ const Header = () => {
                   
         </div>
     </header>
-    <Body/>
-    <HeadLogo/>
+   
     </>
   )
 }

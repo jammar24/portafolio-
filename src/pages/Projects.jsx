@@ -1,12 +1,12 @@
 import React, { useEffect } from 'react';
-import './styles/proyects.css';
+import './styles/projects.css';
 import $ from 'jquery';
 import img1 from '../images/img1.png'
 import img2 from '../images/img2.png'
 import img3 from '../images/img3.png'
  
 
-const Proyects = () => {
+const Projects = () => {
 
   useEffect(() => {
    //* const handleMouseLeave = () => {
@@ -70,4 +70,4 @@ const Proyects = () => {
   );
 };
 
-export default Proyects;
+export default Projects;
