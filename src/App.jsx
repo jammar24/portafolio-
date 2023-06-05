@@ -5,6 +5,7 @@ import './App.css'
 import Header from './components/shared/Header'
 import Home from './pages/Home'
 
+
 function App() {
 
 
@@ -14,6 +15,7 @@ function App() {
      <Routes>
       <Route path='/'  element={<Home/>} />
      </Routes>
+
     </div>
   )
 }

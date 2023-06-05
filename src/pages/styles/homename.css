@@ -5,20 +5,25 @@
   justify-content: center;
   height: 100vh;
   font-family: 'Francois One', sans-serif;
-  color: rgb(19, 48, 18);
-  margin-top: -555px;
+  color: #098472 ;
+  margin-top: -610px;
+  margin-left: 500px;
+  gap:0;
+  flex-wrap: nowrap;
 }
 
 h1,
-h2 {
-  margin: auto;
+h2,h3,h4 {
+  margin: 0;
   font-size: 4vh;
   transition: all 1s;
   z-index: 22;
 }
 
 h1:hover,
-h2:hover {
+h2:hover,
+h3:hover,
+h4:hover {
   filter: blur(6px);
   font-size: 17vh;
   letter-spacing: 0.3em;

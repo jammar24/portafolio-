@@ -1,0 +1,37 @@
+.sidebar {
+    position: sticky;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.1rem   1.5rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+   }
+   .links__logo{
+    display: flex;
+   width: 100%;
+
+   }
+   .links {
+  position: absolute;
+  bottom: 78;
+  right:-125%;
+  display: flex;
+  gap: 1em;
+  
+}
+
+.io {
+  color: rgb(132, 137, 133);
+  font-size: 20px;
+}
+
+
+  .item__links {
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+  }
+  

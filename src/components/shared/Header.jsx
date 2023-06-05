@@ -2,14 +2,13 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import  './styles/header.css'
 import Body from '../../pages/Body'
+import HeadLogo from './HeadLogo'
 
 const Header = () => {
   return (
     <>
     <header className='header'>
-        <div>
-            <Link to='/'  ><img  className='header__img' src={'./images/logo.png'} alt=""/></Link>
-        </div>
+        
         <nav className='header__nav'>
             <ul id='menuList'>
                 <li>
@@ -39,6 +38,7 @@ const Header = () => {
         </div>
     </header>
     <Body/>
+    <HeadLogo/>
     </>
   )
 }
