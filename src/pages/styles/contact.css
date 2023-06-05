@@ -1,0 +1,60 @@
+.container {
+    position: relative;
+    z-index: 1;
+    max-width: 600px;
+    top:-150px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 2em;
+    background-color: #68d4bb74;
+  
+  }
+  
+  #container__name {
+    color: #0b8e3b;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .container__form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .grups {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    padding: 10px;
+    border: 1px solid #25bf5b;
+    border-radius: 4px;
+    background-color: #d8faf07e;
+    color: #05c742;
+    margin-bottom: 10px;
+    cursor:pointer;
+  }
+  
+  input[type="submit"] {
+    padding: 10px 10px;
+    background-color: #1daf77;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    border-radius: 4em;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #0dae7d;
+  }
+
+  #input-message {
+ padding: 10px 10px;
+  }
+  

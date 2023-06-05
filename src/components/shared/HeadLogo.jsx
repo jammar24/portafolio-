@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import "./styles/headlogo.css";
 import logo from "../../images/logo.png";
 
@@ -8,9 +8,9 @@ const HeadLogo = () => {
     <>
       <div className="sidebar">
         <div className="links__logo">
-          <Link to={"/"}>
+          <NavLink to="/">
             <img src={logo} alt="logo" />
-          </Link>
+          </NavLink>
         </div>
         <div className="links">
           <div className="item__links">
@@ -35,7 +35,7 @@ const HeadLogo = () => {
           </div>
 
           <div className="item__links">
-            <a href="/images/CV-actualizado.pdf" target="_blank">
+            <a href="/images/JamarMasiasCV.pdf" target="_blank">
               <i className='bx bx-cloud-download io'></i>
             </a>
             <h5>CV</h5>

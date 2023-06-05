@@ -10,8 +10,10 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: flex-start;
-  margin-top: 250px;
+  align-items: center;
+  margin-top: -15em;
+  position:relative;
+  z-index: 1;
 }
 
 figure.card {

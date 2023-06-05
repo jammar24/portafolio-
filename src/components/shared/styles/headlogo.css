@@ -11,7 +11,8 @@
    }
    .links__logo{
     display: flex;
-   width: 100%;
+   width: 200%;
+
 
    }
    .links {
@@ -25,7 +26,10 @@
 
 .io {
   color: rgb(132, 137, 133);
-  font-size: 20px;
+  font-size: 30px;
+}
+.io:hover {
+  color:rgb(10, 163, 33);
 }
 
 

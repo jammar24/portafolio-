@@ -1,54 +1,19 @@
 import React from 'react'
-import '../pages/styles/home.css'
+/*import '../pages/styles/home.css'*/
+import HomeName from './HomeName'
+import Name from './Name'
+
+
+
 
 const Home = () => {
   return (
-    <>
-    <div> 
-<ul className="background">
-   <li></li>
-   <li></li>
-   <li></li>
-   <li></li>
-   <li></li>
-   <li></li>
-   <li></li>
-   <li></li>
-   <li></li>
-   <li></li>
-   <li></li>
-   <li></li>
-   <li></li>
-   <li></li>
-   <li></li>
-   <li></li>
-   <li></li>
-   <li></li>
-   <li></li>
-   <li></li>
-   <li></li>
-   <li></li>
-   <li></li>
-   <li></li>
-   <li></li>
-   <li></li>
-   <li></li>
-   <li></li>
-   <li></li>
-   <li></li>
-   <li></li>
-   <li></li>
-   <li></li>
-   <li></li>
-   <li></li>
-   <li></li>
-   <li></li>
-   <li></li>
-   <li></li>
-   <li></li>
-</ul>
-</div>
+    <> 
+    
+   <div/>
 
+<Name/> 
+<HomeName/>
 </>
   )
 }

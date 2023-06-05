@@ -1,6 +1,8 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 import  './styles/header.css'
+import HeadLogo from '../shared/HeadLogo'
+
 
 
 const Header = () => {
@@ -11,32 +13,29 @@ const Header = () => {
         <nav className='header__nav'>
             <ul id='menuList'>
                 <li>
-                <Link to='/'  ><i className='bx bxs-castle'></i> Home </Link>
+                <NavLink  to='/' > Home</NavLink>
                 </li>
                 <li>
-                    <Link  to='/'> Aboutme</Link>
+                    <NavLink  to='/sobremi' > Sobre mi</NavLink>
                 </li>
                 <li>
-                    <Link  to='/projects'> Proyects</Link>
+                    <NavLink to= '/proyectos'> Proyectos</NavLink>
                 </li>
                  {/*<li>
                     <Link to= '/'>Project Gallery</Link>
                  </li>
                 <li>
                     <Link to='/'> Blog</Link>
-                </li>*/  }
+                </li>*/}
                 <li>
-                    <Link to='/contact'> Contact</Link>
+                    <NavLink to='/contacto' > Contacto</NavLink>
                 </li>
                 
             </ul>
         </nav>
-        <div id='links'>
-        <a href="#" id="linkedin" data-url="" className="links__wb"></a>
-                  
-        </div>
     </header>
-   
+    <HeadLogo/>        
+
     </>
   )
 }
